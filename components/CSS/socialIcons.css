@@ -1,0 +1,23 @@
+.circle{
+     height: 6vh;
+     width: 6vh;
+   
+     border-radius: 50%;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     
+}
+
+
+.circleContainer{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+     margin: 1rem;
+
+     width: 50vw;
+}

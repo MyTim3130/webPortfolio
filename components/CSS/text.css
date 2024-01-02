@@ -1,0 +1,74 @@
+
+
+.textSection{
+     height: 300vh;
+     width: 100vw;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.riveCoding{
+     height: 60vh;
+     width: 60vh;
+     position: relative;
+     bottom: 20vh;
+}
+
+.textContainer{
+     display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+   
+}
+
+.h1Text{
+     margin-bottom: 10rem;
+}
+
+
+.pathLine svg{
+     position: absolute;
+     height: 300vh;
+     width: 100vw;
+     z-index: 0;
+}
+
+.pathLine{
+     min-height: 500vh;
+     position: absolute;
+}
+
+@media (max-width: 1200px){
+     .h1Text{
+          font-size: 3rem;
+     }
+}
+
+@media (max-width: 800px){
+     .h1Text{
+          font-size: 2rem;
+     }
+}
+
+@media (max-width: 800px){
+     .h1Text{
+          font-size: 2rem !important;
+     }
+     .riveCoding{
+          height: 40vh;
+     }
+}
+
+@media (max-width: 400px){
+     .textSection{
+          height: 250vh !important;
+     }
+     .h1Text{
+          font-size: 1.4rem !important;
+     }
+     .riveCoding{
+          height: 30vh;
+     }
+}
